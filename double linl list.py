@@ -175,23 +175,23 @@ class LinkedList:
             self.head = linkedlist_value.head
             self.size = linkedlist_value.size
             
-l1 = Node('saba')
+l1 = Node('kausar')
 my_list = LinkedList()
 my_list.add_head(l1)
-my_list.add_tail('kausar')
 my_list.add_tail('Ahmed')
 my_list.add_tail('zeenat')
+my_list.add_tail('saba')
 my_list.get_head().element.element
 my_list.add_between_list(2,'Element between')
 my_list.remove_between_list(2)
 
 my_list2 = LinkedList()
-l2 = Node('Nazneen')
+l2 = Node('Ahmed')
 my_list2.add_head(l2)
 my_list2.add_tail('kausar')
-my_list2.add_tail('Ahmed')
-my_list2.add_tail('zeenat')
+my_list2.add_tail('Nazmeen')
+my_list2.add_tail('zainab')
 my_list.merge(my_list2)
 my_list.get_previous_node_at(3).element
 my_list.reverse_display()
-#my_list.search('zeenat')
+#my_list.search('zainab')
